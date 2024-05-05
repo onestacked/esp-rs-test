@@ -117,7 +117,7 @@ pub struct Config {
     #[default("Wifi-SSID")]
     ssid: &'static str,
 
-    #[default(None)]
+    #[default("")]
     password: &'static str,
 }
 
